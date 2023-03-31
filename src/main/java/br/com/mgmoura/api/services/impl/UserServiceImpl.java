@@ -20,6 +20,7 @@ public class UserServiceImpl implements UserService {
 	
 	@Autowired
 	private UserRepository repository;
+	@Autowired
 	private final Environment env;
 
 	@Override
